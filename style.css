@@ -1,0 +1,202 @@
+.App {
+  background-image: url(music-notes.jpg) !important;
+}
+
+.header {
+  background: #3d5261;
+  padding: 30px
+}
+
+.branded
+{
+  display: flex;
+  justify-content: center;
+}
+
+.innerHeader {
+  background: #30404C;
+  padding: 30px
+}
+
+.logo {
+  max-width: 132px;
+  margin-right: 30%;
+}
+
+.logoManati{
+  margin-left: 30%;
+  background-color: #ffffff;
+}
+
+#imagenManati{
+  height: 30px;
+  width: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.classInfo {
+  margin-top: 30px;
+  min-height: 30vh
+}
+
+.featuredCard {
+  margin: 40px 0
+}
+
+.featurePic {
+  width: 75%;
+  background-position: 100%;
+  background-size: cover
+}
+
+.bio {
+  width: 35%;
+  text-align: center;
+  padding: 30px;
+  background: #fff
+}
+
+.role {
+  margin-bottom: 40px
+}
+
+.degree {
+  margin-top: 15px;
+  color: #3d5261;
+}
+
+.quote {
+  margin-top: 25px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.profilePic {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: 50%;
+  border-radius: 50%;
+  margin: 10px auto
+}
+
+.cardBio {
+  text-align: center;
+  padding: 30px
+}
+
+.card {
+  overflow: hidden;
+  background: #fff;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000000
+}
+
+img {
+  max-width: 100%
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+.text-upper {
+  text-transform: uppercase
+}
+
+.text-letter-space {
+  letter-spacing: 2px
+}
+
+.text-small {
+  font-size: .8rem
+}
+
+.text-weight-light {
+  font-weight: bold;
+}
+
+.text-weight-bold {
+  font-weight: 700
+}
+
+.ex-lrg-text {
+  font-size: 5rem
+}
+
+.text-white {
+  color: #fff
+}
+
+.text-highlight {
+  color: #ffe363
+}
+
+.bg {
+  background: #f5f9fa
+}
+
+.wrap {
+  width: 1020px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.flex {
+  display: flex
+}
+
+.wrap {
+  flex-wrap: wrap
+}
+
+.jus-center {
+  justify-content: center
+}
+
+.jus-between {
+  justify-content: space-between
+}
+
+.align-center {
+  align-items: center
+}
+
+.direction-col {
+  flex-direction: column
+}
+
+.cardWrap {
+  padding: 50px 0;
+}
+
+@media (min-width: 680px) {
+  .card {
+    margin-bottom: 0;
+  }
+  .cardWrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+}
+
+@media (min-width: 980px) {
+  .cardWrap {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
